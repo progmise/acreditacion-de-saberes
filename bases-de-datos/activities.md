@@ -16,6 +16,7 @@ d. Agregar:
     * 3 registros en la Tabla **“Ciudades”** (MENDOZA, MISIONES, SALTA).
 
 En todos los casos, respetar los datos que se piden pues se utilizan en los puntos siguientes mientras que para el resto de datos puede ingresar cualquier otro.
+
 4. Registrar el envío de 2 paquetes a la ciudad de MISIONES con el camión de Marca Fiat.
 5. Registrar el envío de 2 paquetes a la ciudad de MENDOZA con el camión de Marca IVECO.
 6. Modificar la Matrícula del camión SCANIA por 8795.
