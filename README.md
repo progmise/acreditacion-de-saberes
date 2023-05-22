@@ -5,5 +5,5 @@ Evaluaciones realizadas, con el fin de validar oficialmente los saberes adquirid
 ## Hitos
 
 Esta acreditación, cuenta con dos hitos independientes, y cada uno de estos, está compuesto por distintas actividades:
-* [Técnicas de programación](/tecnicas-de-programacion/activities.md)
-* [Bases de datos](/bases-de-datos/activities.md)
+* [Técnicas de programación](/tecnicas-de-programacion)
+* [Bases de datos](/bases-de-datos)
