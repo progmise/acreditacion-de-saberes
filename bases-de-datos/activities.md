@@ -70,7 +70,7 @@ En todos los casos, respetar los datos que se piden pues se utilizan en los punt
 
 ## Actividad 02: [Spotify](/tecnicas-de-programacion/actividad-02/spotify.sql)
 
-⚠️ Para esta actividad se debe importar el siguiente recurso que se menciona a continuación, a partir de estos [pasos](#pasos-para-importar-tablas-desde archivos-csv-o-json)
+⚠️ Para esta actividad se debe importar el siguiente recurso que se menciona a continuación, a partir de estos [pasos](#-pasos-para-importar-tablas-desde-archivos-csv-o-json)
 
 En la carpeta de recursos se encuentra un archivo llamado Top_Spotify.csv. Se debe importar ese archivo a una base de datos creada con el nombre de PLAYLIST.
 
