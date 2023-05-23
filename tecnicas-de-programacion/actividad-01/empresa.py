@@ -132,7 +132,7 @@ def main() -> None:
         sueldo = dar_de_alta_sueldo_de_trabajador(contador, sueldos_de_trabajadores)
 
     if not sueldos_de_trabajadores:
-        '¡No se ingresó ningún sueldo válido de algún trabajador!'
+        print('¡No se ingresó ningún sueldo válido de algún trabajador!')
 
     else:
         mostrar_comparativa_de_sueldos(sueldos_de_trabajadores)
