@@ -1,8 +1,10 @@
 # Técnicas de programación
 
+
 ## Actividad 01: [Empresa](/tecnicas-de-programacion/actividad-01/empresa.py)
 
 Se debe reealizar un programa en Python tal que, dada una cantidad no determinada de los sueldos de los trabajadores, se debe aplicar un aumento del 15% en aquellos sueldos inferiores a $ 100.000,00.- El programa dejara de recibir datos cuando se ingrese un numero negativo como valor de sueldo.
+
 
 ## Actividad 02: [Universidad](/tecnicas-de-programacion/actividad-02/universidad.py)
 
@@ -13,6 +15,7 @@ En el sistema de una Universidad, se registra el nombre, apellido, género, edad
     * Todos los datos del estudiante de esa consulta.
     * Los años que le falta para terminar la carrera.
     * Y el costo que tuvo la carrera hasta la fecha (calcularlo por año sin considerar los meses, ya que las cuotas se abonan en enero por única vez en concepto de 12 cuotas)
+
 
 ## Actividad 03: [Adivinando el número](/tecnicas-de-programacion/actividad-03/adivinando_el_numero.py)
 

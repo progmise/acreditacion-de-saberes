@@ -47,7 +47,7 @@ _XAMPP/WAMP y MySQL Workbench_
 
 De acuerdo al siguiente DER (Diagrama Entidad-Relación)
 
-![](/docs/images/diagrama-entidad-relacion.jpg?raw=true)
+![](/docs/images/diagrama-entidad-relacion-transportistas.jpg?raw=true)
 
 Se deben resolver los siguientes ítems:
 1. Crear una base de datos llamada **"Transportista"**.
@@ -68,7 +68,7 @@ En todos los casos, respetar los datos que se piden pues se utilizan en los punt
 9. Eliminar el registro del segundo paquete enviado a MENDOZA en el punto 6.
 
 
-## Actividad 02: [Spotify](/tecnicas-de-programacion/actividad-02/spotify.sql)
+## Actividad 02: [Spotify](/bases-de-datos/actividad-02/spotify.sql)
 
 ⚠️ Para esta actividad se debe importar el siguiente recurso que se menciona a continuación, a partir de estos [pasos](#-pasos-para-importar-tablas-desde-archivos-csv-o-json)
 
@@ -90,3 +90,16 @@ Se deben resolver los siguientes ítems:
 8. A partir de la tabla TOP_SPOTIFY, obtener una lista de todas aquellas canciones pertenecientes al género Pop. Mostrar todos los campos de la tabla en el resultado de la consulta y ordenar alfabéticamente el resultado según el nombre de las canciones.
 9. De la tabla TOP_SPOTIFY, obtener una lista de todas las canciones pertenecientes al género Pop lanzadas durante el año 2015. Mostrar todos los campos de la tabla en el resultado de la consulta y ordenar dicho resultado alfabéticamente según los nombres de los artistas y los nombres de las canciones.
 10. A partir de la tabla TOP_SPOTIFY, obtener una lista de todas aquellas canciones lanzadas antes del año 2011 y que pertenezcan al género Dance Pop. Mostrar todos los campos de la tabla en el resultado de la consulta y ordenar dicho resultado alfabéticamente según los nombres de las canciones.
+
+
+## Actividad 03: [Proveedores](/bases-de-datos/actividad-03/proveedores.sql)
+
+Se debe corregir la consulta SQL para que retorne el número total de cada artículo enviado por cada proveedor junto con el nombre del proveedor y el id del artículo.
+
+![](/docs/images/diagrama-entidad-relacion-proveedores.jpg?raw=true)
+
+```bash
+SELECT SUM(e.cantidad), p.nombre, e.id_articulo
+FROM Proveedor p JOIN Envio e ON p.id_proveedor = e.id_proveedor
+AND e.id_articulo IN (SELECT a.decripcion FROM Articulo a)
+```
