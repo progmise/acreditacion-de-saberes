@@ -1,6 +1,11 @@
 # Técnicas de programación
 
 
+## 📋 Pre-requisitos 
+
+_Python 3.x_
+
+
 ## Actividad 01: [Empresa](/tecnicas-de-programacion/actividad-01/empresa.py)
 
 Se debe reealizar un programa en Python tal que, dada una cantidad no determinada de los sueldos de los trabajadores, se debe aplicar un aumento del 15% en aquellos sueldos inferiores a $ 100.000,00.- El programa dejara de recibir datos cuando se ingrese un numero negativo como valor de sueldo.
