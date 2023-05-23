@@ -43,7 +43,7 @@ _XAMPP/WAMP y MySQL Workbench_
 ![](/docs/images/mysql-workbench-step-12.jpg?raw=true)
 
 
-## Actividad 01: [Transportistas](/bases-de-datos/actividad-01/empresa.py)
+## Actividad 01: [Transportistas](/bases-de-datos/actividad-01/transportistas.sql)
 
 De acuerdo al siguiente DER (Diagrama Entidad-Relación)
 
@@ -67,3 +67,26 @@ En todos los casos, respetar los datos que se piden pues se utilizan en los punt
 8. Listar por orden alfabético en forma ascendente, la cantidad de paquetes que transporta cada Camionero a la ciudad de SALTA.
 9. Eliminar el registro del segundo paquete enviado a MENDOZA en el punto 6.
 
+
+## Actividad 02: [Spotify](/tecnicas-de-programacion/actividad-02/spotify.sql)
+
+⚠️ Para esta actividad se debe importar el siguiente recurso que se menciona a continuación, a partir de estos [pasos](#pasos-para-importar-tablas-desde archivos-csv-o-json)
+
+En la carpeta de recursos se encuentra un archivo llamado Top_Spotify.csv. Se debe importar ese archivo a una base de datos creada con el nombre de PLAYLIST.
+
+Tener a consideración las siguientes indicaciones:
+* No cambiar el nombre de la tabla.
+* Eliminar la tabla en el caso de que ya exista dentro de la base de datos.
+* Mantener los tipos de datos asignados al momento de la importación.
+
+Se deben resolver los siguientes ítems:
+1. Mostrar todo el contenido de la tabla TOP_SPOTIFY importada en el paso anterior.
+2. Ahora, en el resultado de la consulta, sólo se deben observar las columnas ARTISTA, TÍTULO y GÉNERO.
+3. Ordenar alfabéticamente el resultado de la consulta según los géneros musicales.
+4. En el caso de aquellos géneros que se repiten, ordenar alfabéticamente los nombres de los artistas.
+5. En base al ejercicio anterior, mostrar todos los registros de la tabla TOP_SPOTIFY. En el resultado, sólo se deben observar las columnas ARTISTA, TÍTULO y GÉNERO. Ordenar el resultado alfabéticamente según los nombres de los artistas y el nombre de las canciones. Mostrar únicamente las 10 primeras canciones.
+6. Modificar la consulta anterior para mostrar únicamente las canciones ubicadas desde la posición 11 hasta la 15 inclusive.
+7. Dada la tabla TOP_SPOTIFY, obtener una lista de todas aquellas canciones pertenecientes a la cantante Lady Gaga. Debes mostrar todos los campos de la tabla en el resultado de la consulta.
+8. A partir de la tabla TOP_SPOTIFY, obtener una lista de todas aquellas canciones pertenecientes al género Pop. Mostrar todos los campos de la tabla en el resultado de la consulta y ordenar alfabéticamente el resultado según el nombre de las canciones.
+9. De la tabla TOP_SPOTIFY, obtener una lista de todas las canciones pertenecientes al género Pop lanzadas durante el año 2015. Mostrar todos los campos de la tabla en el resultado de la consulta y ordenar dicho resultado alfabéticamente según los nombres de los artistas y los nombres de las canciones.
+10. A partir de la tabla TOP_SPOTIFY, obtener una lista de todas aquellas canciones lanzadas antes del año 2011 y que pertenezcan al género Dance Pop. Mostrar todos los campos de la tabla en el resultado de la consulta y ordenar dicho resultado alfabéticamente según los nombres de las canciones.
