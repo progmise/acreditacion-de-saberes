@@ -31,14 +31,14 @@ def validar_numero_flotante(entrada: str) -> float:
     """
 
     numero: float = float()
-    numberos_encontrados: list = list()
+    numeros_encontrados: list = list()
     es_numero_valido: bool = False
 
     while not es_numero_valido:
 
         if es_numero_flotante_valido(entrada):
-            numberos_encontrados = findall(REGEX_DE_NUMERO_FLOTANTE, entrada)
-            numero = float(numberos_encontrados[0])
+            numeros_encontrados = findall(REGEX_DE_NUMERO_FLOTANTE, entrada)
+            numero = float(numeros_encontrados[0])
             es_numero_valido = True
 
         else:
